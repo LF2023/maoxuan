@@ -66,16 +66,18 @@
 
 更多触发 / 抗误触发用例见 [test-prompts.json](./test-prompts.json)。
 
-## 安装到 WorkBuddy
+## 安装
 
-放到以下任一位置即可被自动识别：
+克隆到对应平台的 skills 目录即可被自动识别：
 
-- **用户级**（所有项目可用）：`~/.workbuddy/skills/maoxuan/`
-- **项目级**（仅该项目可用）：`<你的项目>/.workbuddy/skills/maoxuan/`
+| 平台 | 安装命令 |
+|---|---|
+| WorkBuddy（用户级，所有项目可用） | `git clone https://github.com/LF2023/maoxuan.git ~/.workbuddy/skills/maoxuan` |
+| WorkBuddy（项目级，仅该项目可用） | `git clone https://github.com/LF2023/maoxuan.git <你的项目>/.workbuddy/skills/maoxuan` |
+| Claude Code | `git clone https://github.com/LF2023/maoxuan.git ~/.claude/skills/maoxuan` |
+| Codex（OpenAI） | `git clone https://github.com/LF2023/maoxuan.git ~/.codex/skills/maoxuan` |
 
-```bash
-git clone https://github.com/LF2023/maoxuan.git ~/.workbuddy/skills/maoxuan
-```
+> `SKILL.md` 的 frontmatter 已包含各平台要求的 `name` / `description` / `license` 字段，克隆到上述任一目录即可被自动加载。装好后直接在对话中说"怎么破局""分析一下局势"等触发词即可。
 
 ## License
 

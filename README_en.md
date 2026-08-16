@@ -64,16 +64,18 @@ A few real scenarios showing how the skill is triggered, which unit it applies, 
 
 More trigger / anti-misfire cases in [test-prompts.json](./test-prompts.json).
 
-## Install into WorkBuddy
+## Install
 
-Place it in either location to be auto-detected:
+Clone into the skills directory of your platform — it will be auto-detected:
 
-- **User-level** (available in all projects): `~/.workbuddy/skills/maoxuan/`
-- **Project-level** (this project only): `<your-project>/.workbuddy/skills/maoxuan/`
+| Platform | Command |
+|---|---|
+| WorkBuddy (user-level, all projects) | `git clone https://github.com/LF2023/maoxuan.git ~/.workbuddy/skills/maoxuan` |
+| WorkBuddy (project-level, this project only) | `git clone https://github.com/LF2023/maoxuan.git <your-project>/.workbuddy/skills/maoxuan` |
+| Claude Code | `git clone https://github.com/LF2023/maoxuan.git ~/.claude/skills/maoxuan` |
+| Codex (OpenAI) | `git clone https://github.com/LF2023/maoxuan.git ~/.codex/skills/maoxuan` |
 
-```bash
-git clone https://github.com/LF2023/maoxuan.git ~/.workbuddy/skills/maoxuan
-```
+> The `SKILL.md` frontmatter already includes the `name` / `description` / `license` fields each platform requires, so the skill is auto-loaded right after cloning. Then just talk naturally — e.g. "how do we break through with limited resources" — to trigger it.
 
 ## License
 
