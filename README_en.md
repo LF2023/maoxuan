@@ -74,8 +74,17 @@ Clone into the skills directory of your platform — it will be auto-detected:
 | WorkBuddy (project-level, this project only) | `git clone https://github.com/LF2023/maoxuan.git <your-project>/.workbuddy/skills/maoxuan` |
 | Claude Code | `git clone https://github.com/LF2023/maoxuan.git ~/.claude/skills/maoxuan` |
 | Codex (OpenAI) | `git clone https://github.com/LF2023/maoxuan.git ~/.codex/skills/maoxuan` |
+| Hermes Agent | `git clone https://github.com/LF2023/maoxuan.git <HERMES_HOME>/skills/maoxuan` |
+| OpenClaw | `git clone https://github.com/LF2023/maoxuan.git ~/.openclaw/skills/maoxuan` |
+| DeepSeek Harness (DSH) | `git clone https://github.com/LF2023/maoxuan.git ~/.dsh/skills/maoxuan` |
 
 > The `SKILL.md` frontmatter already includes the `name` / `description` / `license` fields each platform requires, so the skill is auto-loaded right after cloning. Then just talk naturally — e.g. "how do we break through with limited resources" — to trigger it.
+
+Platform notes:
+
+- **Hermes Agent**: `HERMES_HOME` defaults to `~/.hermes` (macOS / Linux) or `%LOCALAPPDATA%\hermes` (Windows); `~/.agents/skills/maoxuan` also works. Restart Hermes to pick it up.
+- **OpenClaw**: `~/.agents/skills/maoxuan` also works (personal skills, higher priority than `~/.openclaw/skills`). Auto-discovered once the OpenClaw client is installed.
+- **DeepSeek Harness (DSH)**: `~/.dsh` is the default `$DSH_HOME`; `<project-root>/.dsh/skills` and `~/.agents/skills` are also supported. New sessions pick it up automatically — no restart needed.
 
 ## License
 
