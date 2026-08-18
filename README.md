@@ -1,4 +1,4 @@
-# 毛选·战略与矛盾分析 (maoxuan)
+# 毛选·战略与矛盾分析 (mxskill)
 
 把《毛泽东选集》的战略思维、矛盾分析法、调查研究转译为**可直接套用**的分析与执行框架，而非空泛口号。适用于战略分析、问题拆解、竞争研判、行动计划、调研方案，以及面对复杂不确定局面时需要"抓主要矛盾""实事求是""调查研究"等思维框架的场景。
 
@@ -72,20 +72,20 @@
 
 | 平台 | 安装命令 |
 |---|---|
-| WorkBuddy（用户级，所有项目可用） | `git clone https://github.com/LF2023/maoxuan.git ~/.workbuddy/skills/maoxuan` |
-| WorkBuddy（项目级，仅该项目可用） | `git clone https://github.com/LF2023/maoxuan.git <你的项目>/.workbuddy/skills/maoxuan` |
-| Claude Code | `git clone https://github.com/LF2023/maoxuan.git ~/.claude/skills/maoxuan` |
-| Codex（OpenAI） | `git clone https://github.com/LF2023/maoxuan.git ~/.codex/skills/maoxuan` |
-| Hermes Agent | `git clone https://github.com/LF2023/maoxuan.git <HERMES_HOME>/skills/maoxuan` |
-| OpenClaw | `git clone https://github.com/LF2023/maoxuan.git ~/.openclaw/skills/maoxuan` |
-| DeepSeek Harness（DSH） | `git clone https://github.com/LF2023/maoxuan.git ~/.dsh/skills/maoxuan` |
+| WorkBuddy（用户级，所有项目可用） | `git clone https://github.com/LF2023/mxskill.git ~/.workbuddy/skills/mxskill` |
+| WorkBuddy（项目级，仅该项目可用） | `git clone https://github.com/LF2023/mxskill.git <你的项目>/.workbuddy/skills/mxskill` |
+| Claude Code | `git clone https://github.com/LF2023/mxskill.git ~/.claude/skills/mxskill` |
+| Codex（OpenAI） | `git clone https://github.com/LF2023/mxskill.git ~/.codex/skills/mxskill` |
+| Hermes Agent | `git clone https://github.com/LF2023/mxskill.git <HERMES_HOME>/skills/mxskill` |
+| OpenClaw | `git clone https://github.com/LF2023/mxskill.git ~/.openclaw/skills/mxskill` |
+| DeepSeek Harness（DSH） | `git clone https://github.com/LF2023/mxskill.git ~/.dsh/skills/mxskill` |
 
 > `SKILL.md` 的 frontmatter 已包含各平台要求的 `name` / `description` / `license` 字段，克隆到上述任一目录即可被自动加载。装好后直接在对话中说"怎么破局""分析一下局势"等触发词即可。
 
 各平台补充说明：
 
-- **Hermes Agent**：`HERMES_HOME` 默认为 `~/.hermes`（macOS / Linux）或 `%LOCALAPPDATA%\hermes`（Windows）；也可放入 `~/.agents/skills/maoxuan`。重启 Hermes 后生效。
-- **OpenClaw**：也可放入 `~/.agents/skills/maoxuan`（个人级 skills，优先级高于 `~/.openclaw/skills`）。装好 OpenClaw 客户端后自动发现。
+- **Hermes Agent**：`HERMES_HOME` 默认为 `~/.hermes`（macOS / Linux）或 `%LOCALAPPDATA%\hermes`（Windows）；也可放入 `~/.agents/skills/mxskill`。重启 Hermes 后生效。
+- **OpenClaw**：也可放入 `~/.agents/skills/mxskill`（个人级 skills，优先级高于 `~/.openclaw/skills`）。装好 OpenClaw 客户端后自动发现。
 - **DeepSeek Harness（DSH）**：`~/.dsh` 是默认 `$DSH_HOME`；另支持 `<项目根>/.dsh/skills` 与 `~/.agents/skills`。放入后新会话自动发现，无需重启。
 
 ## License

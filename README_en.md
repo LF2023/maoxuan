@@ -1,4 +1,4 @@
-# Mao Xuan · Strategy & Contradiction Analysis (maoxuan)
+# Mao Xuan · Strategy & Contradiction Analysis (mxskill)
 
 A skill that translates the strategic thinking, contradiction analysis, and investigation methods of *Selected Works of Mao Zedong* into **directly applicable** analysis and execution frameworks — not empty slogans. It fits strategic analysis, problem decomposition, competitive assessment, action planning, research design, and any complex, uncertain situation where you need frameworks like "grasp the principal contradiction," "seek truth from facts," or "investigation and research."
 
@@ -70,20 +70,20 @@ Clone into the skills directory of your platform — it will be auto-detected:
 
 | Platform | Command |
 |---|---|
-| WorkBuddy (user-level, all projects) | `git clone https://github.com/LF2023/maoxuan.git ~/.workbuddy/skills/maoxuan` |
-| WorkBuddy (project-level, this project only) | `git clone https://github.com/LF2023/maoxuan.git <your-project>/.workbuddy/skills/maoxuan` |
-| Claude Code | `git clone https://github.com/LF2023/maoxuan.git ~/.claude/skills/maoxuan` |
-| Codex (OpenAI) | `git clone https://github.com/LF2023/maoxuan.git ~/.codex/skills/maoxuan` |
-| Hermes Agent | `git clone https://github.com/LF2023/maoxuan.git <HERMES_HOME>/skills/maoxuan` |
-| OpenClaw | `git clone https://github.com/LF2023/maoxuan.git ~/.openclaw/skills/maoxuan` |
-| DeepSeek Harness (DSH) | `git clone https://github.com/LF2023/maoxuan.git ~/.dsh/skills/maoxuan` |
+| WorkBuddy (user-level, all projects) | `git clone https://github.com/LF2023/mxskill.git ~/.workbuddy/skills/mxskill` |
+| WorkBuddy (project-level, this project only) | `git clone https://github.com/LF2023/mxskill.git <your-project>/.workbuddy/skills/mxskill` |
+| Claude Code | `git clone https://github.com/LF2023/mxskill.git ~/.claude/skills/mxskill` |
+| Codex (OpenAI) | `git clone https://github.com/LF2023/mxskill.git ~/.codex/skills/mxskill` |
+| Hermes Agent | `git clone https://github.com/LF2023/mxskill.git <HERMES_HOME>/skills/mxskill` |
+| OpenClaw | `git clone https://github.com/LF2023/mxskill.git ~/.openclaw/skills/mxskill` |
+| DeepSeek Harness (DSH) | `git clone https://github.com/LF2023/mxskill.git ~/.dsh/skills/mxskill` |
 
 > The `SKILL.md` frontmatter already includes the `name` / `description` / `license` fields each platform requires, so the skill is auto-loaded right after cloning. Then just talk naturally — e.g. "how do we break through with limited resources" — to trigger it.
 
 Platform notes:
 
-- **Hermes Agent**: `HERMES_HOME` defaults to `~/.hermes` (macOS / Linux) or `%LOCALAPPDATA%\hermes` (Windows); `~/.agents/skills/maoxuan` also works. Restart Hermes to pick it up.
-- **OpenClaw**: `~/.agents/skills/maoxuan` also works (personal skills, higher priority than `~/.openclaw/skills`). Auto-discovered once the OpenClaw client is installed.
+- **Hermes Agent**: `HERMES_HOME` defaults to `~/.hermes` (macOS / Linux) or `%LOCALAPPDATA%\hermes` (Windows); `~/.agents/skills/mxskill` also works. Restart Hermes to pick it up.
+- **OpenClaw**: `~/.agents/skills/mxskill` also works (personal skills, higher priority than `~/.openclaw/skills`). Auto-discovered once the OpenClaw client is installed.
 - **DeepSeek Harness (DSH)**: `~/.dsh` is the default `$DSH_HOME`; `<project-root>/.dsh/skills` and `~/.agents/skills` are also supported. New sessions pick it up automatically — no restart needed.
 
 ## License
