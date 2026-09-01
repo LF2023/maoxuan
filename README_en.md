@@ -42,7 +42,9 @@ A few real scenarios showing how the skill is triggered, which unit it applies, 
 
 > User: I'm pulling private traffic, running ads, and making content all at once — can't keep up. How do I prioritize?
 >
-> Skill: First identify which line is the root cause driving the others (e.g. "visitors come but don't convert" is the core), instead of handing you an evenly-spread to-do list. Lock the main target, and park the rest for now.
+> Skill: First identify which line is the root cause driving the others (e.g. "visitors come but don't convert"), instead of an evenly-spread to-do list. Lock the main target, park the rest.
+>
+> Expected shape: facts to verify → principal-contradiction hypothesis → drop list → exit condition. Full sample in [SKILL.md](./SKILL.md).
 
 **Scenario 2 · Team at a disadvantage, how to win (U6 Concentrate Superior Force)**
 

@@ -32,8 +32,7 @@ U1 调查研究 ──► U2 抓主要矛盾 ──► U3 矛盾分析
 
 ## 跨书链接
 
-- `engineering-cybernetics`：U1≈状态观测，U6≈设定点收敛，U5≈抗扰动。
-- `meditations-first-philosophy`：U4 与"清晰分明标准""自我质疑循环"互为事实校验。
+本仓库自成一体，不依赖其他 skill。
 
 ## 快速取用卡
 

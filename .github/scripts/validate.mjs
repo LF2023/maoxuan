@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Validates the maoxuan skill repo:
+// Validates the mxskill repo:
 //   1. required files exist
 //   2. test-prompts.json is valid JSON with the expected structure
 //   3. SKILL.md has complete YAML frontmatter and version matches test-prompts.json
