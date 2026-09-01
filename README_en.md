@@ -2,7 +2,13 @@
 
 A skill that translates the strategic thinking, contradiction analysis, and investigation methods of *Selected Works of Mao Zedong* into **directly applicable** analysis and execution frameworks — not empty slogans. It fits strategic analysis, problem decomposition, competitive assessment, action planning, research design, and any complex, uncertain situation where you need frameworks like "grasp the principal contradiction," "seek truth from facts," or "investigation and research."
 
-> This is a **Skill** that can be loaded by agents such as WorkBuddy / Claude Code / Codex.
+## Fastest path: WeChat mini program (no install)
+
+Search **问问教员** in WeChat, or scan the code. Drop in a real problem — no Agent setup.
+
+![问问教员 · WeChat mini program](./docs/maoxuan-miniprogram.jpg)
+
+> This is also a **Skill** for agents such as WorkBuddy / Claude Code / Codex. Agent install is in the Install section below.
 
 > **New here?** Start with [新手入门.md (Chinese quick start)](./新手入门.md) — or read on for the English overview.
 

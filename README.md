@@ -2,11 +2,17 @@
 
 把《毛泽东选集》的战略思维、矛盾分析法、调查研究转译为**可直接套用**的分析与执行框架，而非空泛口号。适用于战略分析、问题拆解、竞争研判、行动计划、调研方案，以及面对复杂不确定局面时需要"抓主要矛盾""实事求是""调查研究"等思维框架的场景。
 
-> 这是一个可供 WorkBuddy / Claude Code / Codex 等 Agent 加载的 **Skill（技能）**。
+## 最快用法：微信扫码（不用装）
+
+微信搜一搜 **「问问教员」**，或扫码进入小程序。把真实卡点丢进去即可。
+
+![问问教员 · 微信小程序](./docs/maoxuan-miniprogram.jpg)
+
+> 这是一个可供 WorkBuddy / Claude Code / Codex 等 Agent 加载的 **Skill（技能）**。Agent 安装见下方「安装」。
 
 > **新手？** 先看 [新手入门.md](./新手入门.md) —— 5 分钟搞懂它是什么、怎么用、第一次该看什么。
 
-> **English?** See [README_en.md](./README_en.md).
+> **English?** See [README_en.md](./README_en.md)。
 
 ## 它解决什么
 
