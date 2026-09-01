@@ -1,6 +1,6 @@
 {
-  "skill": "mxskill",
-  "version": "1.0.2",
+  "skill": "mxs",
+  "version": "1.0.3",
   "format": "darwin-compatible",
   "description": "本 skill 的触发与抗误触发测试。trigger=应当激活本 skill 并套用对应单元；distractor=不应激活本 skill，走常规回答。",
   "tests": [

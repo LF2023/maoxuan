@@ -40,7 +40,7 @@
 
 ## 触发词
 
-> 战略、主要矛盾、调研、分析一下局势、怎么做计划、怎么打法、资源不够怎么破局
+> `/mxs` · 战略、主要矛盾、调研、分析一下局势、怎么做计划、怎么打法、资源不够怎么破局
 
 ## 使用示例
 
@@ -76,7 +76,16 @@
 
 ## 安装
 
-克隆到对应平台的 skills 目录即可被自动识别：
+最快仍是上面扫码。要用 Agent Skill，一条命令：
+
+```bash
+npx -y skills add LF2023/mxskill -g
+```
+
+装好后斜杠命令是 **`/mxs`**。把真实卡点丢进去，例如：`/mxs 增长停了，先解决哪个`。
+
+<details>
+<summary>或 git clone 到各平台 skills 目录</summary>
 
 | 平台 | 安装命令 |
 |---|---|
@@ -88,13 +97,11 @@
 | OpenClaw | `git clone https://github.com/LF2023/mxskill.git ~/.openclaw/skills/mxskill` |
 | DeepSeek Harness（DSH） | `git clone https://github.com/LF2023/mxskill.git ~/.dsh/skills/mxskill` |
 
-> `SKILL.md` 的 frontmatter 已包含各平台要求的 `name` / `description` / `license` 字段，克隆到上述任一目录即可被自动加载。装好后直接在对话中说"怎么破局""分析一下局势"等触发词即可。
-
-各平台补充说明：
-
 - **Hermes Agent**：`HERMES_HOME` 默认为 `~/.hermes`（macOS / Linux）或 `%LOCALAPPDATA%\hermes`（Windows）；也可放入 `~/.agents/skills/mxskill`。重启 Hermes 后生效。
 - **OpenClaw**：也可放入 `~/.agents/skills/mxskill`（个人级 skills，优先级高于 `~/.openclaw/skills`）。装好 OpenClaw 客户端后自动发现。
 - **DeepSeek Harness（DSH）**：`~/.dsh` 是默认 `$DSH_HOME`；另支持 `<项目根>/.dsh/skills` 与 `~/.agents/skills`。放入后新会话自动发现，无需重启。
+
+</details>
 
 ## License
 

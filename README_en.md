@@ -74,7 +74,16 @@ More trigger / anti-misfire cases in [test-prompts.json](./test-prompts.json).
 
 ## Install
 
-Clone into the skills directory of your platform — it will be auto-detected:
+Scanning the WeChat mini program above is still the fastest path. For an Agent Skill:
+
+```bash
+npx -y skills add LF2023/mxskill -g
+```
+
+The slash command is **`/mxs`**. Example: `/mxs growth stalled, which problem first?`
+
+<details>
+<summary>Or git clone into each platform's skills directory</summary>
 
 | Platform | Command |
 |---|---|
@@ -86,13 +95,11 @@ Clone into the skills directory of your platform — it will be auto-detected:
 | OpenClaw | `git clone https://github.com/LF2023/mxskill.git ~/.openclaw/skills/mxskill` |
 | DeepSeek Harness (DSH) | `git clone https://github.com/LF2023/mxskill.git ~/.dsh/skills/mxskill` |
 
-> The `SKILL.md` frontmatter already includes the `name` / `description` / `license` fields each platform requires, so the skill is auto-loaded right after cloning. Then just talk naturally — e.g. "how do we break through with limited resources" — to trigger it.
-
-Platform notes:
-
 - **Hermes Agent**: `HERMES_HOME` defaults to `~/.hermes` (macOS / Linux) or `%LOCALAPPDATA%\hermes` (Windows); `~/.agents/skills/mxskill` also works. Restart Hermes to pick it up.
 - **OpenClaw**: `~/.agents/skills/mxskill` also works (personal skills, higher priority than `~/.openclaw/skills`). Auto-discovered once the OpenClaw client is installed.
 - **DeepSeek Harness (DSH)**: `~/.dsh` is the default `$DSH_HOME`; `<project-root>/.dsh/skills` and `~/.agents/skills` are also supported. New sessions pick it up automatically — no restart needed.
+
+</details>
 
 ## License
 
