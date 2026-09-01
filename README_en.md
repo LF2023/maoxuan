@@ -1,6 +1,14 @@
-# Mao Xuan · Strategy & Contradiction Analysis (mxskill)
+# Mao Xuan · Strategy & Contradiction Analysis · `/mxs`
 
-A skill that translates the strategic thinking, contradiction analysis, and investigation methods of *Selected Works of Mao Zedong* into **directly applicable** analysis and execution frameworks — not empty slogans. It fits strategic analysis, problem decomposition, competitive assessment, action planning, research design, and any complex, uncertain situation where you need frameworks like "grasp the principal contradiction," "seek truth from facts," or "investigation and research."
+Repo **mxskill**, slash command **`/mxs`**.
+
+Turns reusable methods from *Selected Works of Mao Zedong* into four output lines: facts to verify → principal contradiction → stop-doing list → done-when. Not slogans.
+
+**Three paths (fastest first)**
+
+1. WeChat search **问问教员**, or scan the code below  
+2. Agent: `npx -y skills add LF2023/mxskill -g`, then `/mxs`  
+3. [Chinese quick start](./新手入门.md)
 
 ## Fastest path: WeChat mini program (no install)
 
@@ -8,9 +16,7 @@ Search **问问教员** in WeChat, or scan the code. Drop in a real problem — 
 
 ![问问教员 · WeChat mini program](./docs/maoxuan-miniprogram.jpg)
 
-> This is also a **Skill** for agents such as WorkBuddy / Claude Code / Codex. Agent install is in the Install section below.
-
-> **New here?** Start with [新手入门.md (Chinese quick start)](./新手入门.md) — or read on for the English overview.
+> Agent install is in the Install section below.
 
 ## What it solves
 
