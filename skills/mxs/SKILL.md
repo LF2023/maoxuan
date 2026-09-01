@@ -1,6 +1,6 @@
 ---
 name: mxs
-version: "1.0.3"
+version: "1.0.4"
 description: "战略分析、抓主要矛盾、调研破局时用。毛选方法论转成可执行步骤。"
 license: MIT
 display_name: "毛选·战略与矛盾分析"

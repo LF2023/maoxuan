@@ -10,6 +10,16 @@ Turns reusable methods from *Selected Works of Mao Zedong* into four output line
 2. Agent: `npx -y skills add LF2023/mxskill -g`, then `/mxs`  
 3. [Chinese quick start](./新手入门.md)
 
+## Quick start (Agent)
+
+After install, paste a real situation:
+
+```
+/mxs I'm running private-domain, ads, and content at once and drowning. What do I prioritize?
+```
+
+You should get four lines: facts to verify → principal-contradiction hypothesis → stop-doing list → done-when. Not an even to-do list.
+
 ## Fastest path: WeChat mini program (no install)
 
 Search **问问教员** in WeChat, or scan the code. Drop in a real problem — no Agent setup.
@@ -40,7 +50,7 @@ Search **问问教员** in WeChat, or scan the code. Drop in a real problem — 
 | U9 | "Play the Piano" | Coordinate multiple fronts in balance |
 | U10 | Concrete Analysis of Concrete Conditions | No move works everywhere |
 
-Full content in [SKILL.md](./SKILL.md); trigger-scenario index in [INDEX.md](./INDEX.md); trigger / anti-misfire tests in [test-prompts.json](./test-prompts.json).
+Full content in [SKILL.md](./skills/mxs/SKILL.md); trigger-scenario index in [INDEX.md](./skills/mxs/INDEX.md); trigger / anti-misfire tests in [test-prompts.json](./test-prompts.json).
 
 ## Trigger words
 
@@ -56,7 +66,7 @@ A few real scenarios showing how the skill is triggered, which unit it applies, 
 >
 > Skill: First identify which line is the root cause driving the others (e.g. "visitors come but don't convert"), instead of an evenly-spread to-do list. Lock the main target, park the rest.
 >
-> Expected shape: facts to verify → principal-contradiction hypothesis → drop list → exit condition. Full sample in [SKILL.md](./SKILL.md).
+> Expected shape: facts to verify → principal-contradiction hypothesis → drop list → exit condition. Full sample in [SKILL.md](./skills/mxs/SKILL.md).
 
 **Scenario 2 · Team at a disadvantage, how to win (U6 Concentrate Superior Force)**
 

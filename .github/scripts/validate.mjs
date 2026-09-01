@@ -15,7 +15,7 @@ const ok = (msg) => console.log('  \u2713', msg);
 const bad = (msg) => { errors.push(msg); console.error('  \u2717', msg); };
 
 // --- 1. required files ---
-const requiredFiles = ['README.md', 'README_en.md', 'INDEX.md', 'SKILL.md', 'test-prompts.json', 'LICENSE', '新手入门.md'];
+const requiredFiles = ['README.md', 'README_en.md', 'skills/mxs/INDEX.md', 'skills/mxs/SKILL.md', 'test-prompts.json', 'LICENSE', '新手入门.md'];
 console.log('Checking required files...');
 for (const f of requiredFiles) {
   if (existsSync(join(root, f))) ok(`file exists: ${f}`);
@@ -61,7 +61,7 @@ if (tp) {
 
 // --- 3. SKILL.md frontmatter ---
 console.log('Checking SKILL.md frontmatter...');
-const skillText = readFileSync(join(root, 'SKILL.md'), 'utf8');
+const skillText = readFileSync(join(root, 'skills/mxs/SKILL.md'), 'utf8');
 const fm = /^---\r?\n([\s\S]*?)\r?\n---/.exec(skillText);
 if (!fm) {
   bad('SKILL.md missing YAML frontmatter');
